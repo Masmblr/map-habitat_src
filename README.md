@@ -21,7 +21,7 @@ Map Description:
 > To further enhance the immersive atmosphere, Habitat introduces a variety of fresh textures, sounds, and particle effects. These additions ensure that players are fully engrossed in the game world, fostering a heightened sense of tension and exhilaration.
 > 
 > I hope you find these additions appealing! :)
-
+ 
 * * *
 
 ## Screenshots:
