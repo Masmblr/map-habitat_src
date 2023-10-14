@@ -1,0 +1,142 @@
+habitat/smoke_01b
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/habitat/smoke_01
+		displacement 1 1 1 ~1.0
+		velocityType	static
+		velocityDir		linear
+		velocityMagnitude	10
+		velocity		0.1 0.1 0.1 ~0.4
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		-1.0 0 0.1 ~0.03
+		accelerationMagnitude	6
+		radius		0 50 400
+		alpha 0 0.4 0.0
+		rotation	0 ~360 ~360
+		bounce		0.0
+		overdrawProtection 
+ 		lifeTime 30000
+		}
+	count infinite
+	delay 900
+	period 4000 - ~0%
+	}
+}
+
+habitat/smoke_01c
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/habitat/smoke_01
+		displacement 1 1 1 ~1.0
+		velocityType	static
+		velocityDir		linear
+		velocityMagnitude	10
+		velocity		0.1 0.1 0.1 ~0.4
+		accelerationType	static
+		accelerationDir		linear
+		acceleration		-0.2 1.0 0.1 ~0.3
+		accelerationMagnitude	6
+		radius		0 40 300
+		alpha 0 0.4 0.0
+		rotation	0 ~360 ~360
+		bounce		0.0
+		overdrawProtection 
+ 		lifeTime 25000
+		}
+	count infinite
+	delay 1000
+	period 4000 - ~0%
+	}
+}
+
+habitat/smoke_01
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/habitat/smoke_01
+			displacement 0 0 0 0
+			velocityType		static
+			velocityDir			linear
+			velocityMagnitude		45
+			velocity			0 0 -1  ~15
+			accelerationType		static
+			accelerationDir		linear
+			acceleration		15 -5 -1 ~5
+			accelerationMagnitude	25
+			radius		0 5 40
+			alpha			250 .5 0
+			rotation		0 ~360 ~360
+			bounce		0.0
+		lifeTime 2000
+		}
+	count 8
+	delay 0
+	period 3000 - ~0%
+	}
+}
+
+habitat/ship_crash_smoke_maindoor_left
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/habitat/smoke_01
+			displacement 0 0 0 0
+			velocityType		static
+			velocityDir			linear
+			velocityMagnitude		45
+			velocity			0 0 -1  ~15
+			accelerationType		static
+			accelerationDir		linear
+			acceleration		15 5 -1 ~5
+			accelerationMagnitude	25
+			radius		0 5 40
+			alpha			250 .5 0
+			rotation		0 ~360 ~360
+			bounce		0.0
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 45 - ~0%
+	}
+}
+
+habitat/ship_crash_smoke_maindoor_right
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/habitat/smoke_01
+			displacement 0 0 0 0
+			velocityType		static
+			velocityDir			linear
+			velocityMagnitude		45
+			velocity			0 0 -1  ~15
+			accelerationType		static
+			accelerationDir		linear
+			acceleration		15 -5 -1 ~5
+			accelerationMagnitude	25
+			radius		0 5 40
+			alpha			250 .5 0
+			rotation		0 ~360 ~360
+			bounce		0.0
+		lifeTime 2000
+		}
+	count infinite
+	delay 0
+	period 45 - ~0%
+	}
+}
+
