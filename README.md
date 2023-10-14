@@ -3,7 +3,7 @@
 
 ## Overview: A Corona-Quarantine-inspired [Tremulous](https://de.wikipedia.org/wiki/Tremulous) Level
 
-Habitat is a game level by Matthias "Masmblr" Peters for the open source game [_Tremulous_](https://tremulous.net/). This map utilizes the `Super Mario 64 Reloaded` texture pack by GhostlyDark. The `Yoshi model` is created by Alec Pike.
+Habitat is a game level by Matthias "Masmblr" Peters for the open source game [_Tremulous_](https://tremulous.net/).
 
 Map Description: 
 > Habitat is an extraordinary map that was conceived during the challenging period of the COVID-19 pandemic when I found myself in quarantine at home. Taking inspiration from the renowned "Hadley's Hope" colony in the movie "Aliens," this level provides players with an engaging gaming experience accompanied by a captivating storyline.
