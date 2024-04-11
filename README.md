@@ -73,10 +73,10 @@ Some textures I have drawn for the map:
 [<img src="meta/preview_textures/18.jpg" width="100"/>](meta/preview_textures/18.jpg)
 
 ## Version History:
-| Version: | Date:        | Status: | Release Build (.pk3):       
-| ------- | ------------- | ------: | -----------------: |
-| 1.0     | 27/01/2018  | beta | :x:        |     
-| 1.1     | 07/09/2023  | final | [💾](https://github.com/Masmblr/map-Habitat_src/releases/) |
+| Version: | Date:        | Status: |
+| ------- | ------------- | ------: |
+| 1.0     | 27/01/2018  | beta |
+| 1.1     | 07/09/2023  | release |
 
 ## How-To
 **Binary**:
@@ -216,7 +216,7 @@ textures\habitat\tex_rain.jpg <sup>[1](#Credit-1)</sup>
 
 ### Credit-1
 
-[Matthias "Masmblr Peters"](mailto:masmblr@gmail.com) \
+[Matthias "Masmblr" Peters](mailto:masmblr@gmail.com) \
 Content: Map, Textures, Shaders \
 License: [MIT License](https://opensource.org/license/mit/).
 (See "LICENSE" file for more Informations.)
